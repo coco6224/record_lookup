@@ -1,0 +1,56 @@
+@import url(http://allfont.net/allfont.css?fonts=agency-fb);
+
+main {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 3px 5px #dfdfdf;
+    background-color: #ffffff;
+}
+
+.content {
+    margin: 5px 0;
+    width: 100%;
+    display: inline-grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content auto max-content;
+    text-align: center;
+}
+
+.content > div {
+    margin-top: auto;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #595959;
+    font-family: 'Agency FB', arial;
+}
+
+.space {
+    padding: 0 20px;
+    border-width: 0;
+    border-radius: 45%;  
+    background-color: transparent;
+
+    font-size: 30px;
+    font-family: 'Agency FB', arial;
+}
+
+.selected {
+    background-color: #A2A2A2;
+    color: #ffffff;
+}
+
+.user {
+    display: flex;
+}
+
+.user > div {
+    font-size: 30px;
+    font-family: 'Agency FB', arial;
+}
+
+.icon-person {
+    margin-left: 3px;
+}

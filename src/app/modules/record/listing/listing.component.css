@@ -1,0 +1,21 @@
+main {
+    height: 1000px;
+    background-color: pink;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.dropdown {
+    margin-right: 5px;
+    background-color: #ffffff;
+    border: #A2A2A2 2px solid;
+    border-radius: 30%;
+    padding: 5px 20px;
+    font-size: 18px;
+}
+
+.order {
+    margin-left: auto;
+}

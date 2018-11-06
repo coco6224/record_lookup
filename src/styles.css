@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #A2A2A2;
+}
+
+body {
+    margin: 0;
+}
+
+.outer-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* icons */
+.icon-person {
+    width: 30px;
+    height: 30px;
+    background: url('assets/icon/person.png') no-repeat;
+}
